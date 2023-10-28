@@ -10,7 +10,9 @@ async function main() {
   const publicKeyFrom = new Web3.PublicKey(
     "BDWtkCeANt2oiYBtJZ6eLreFyoaiFta2otsjHd2DSu4k"
   );
-  const publicKeyTo = new Web3.PublicKey("PUB_KEY_TO");
+  const publicKeyTo = new Web3.PublicKey(
+    "BoXCF4o9z3aQu1rdEro11VTt3MWAtWwWMBvFr6Qz4UCV"
+  );
 
   const instruction = Web3.SystemProgram.transfer({
     fromPubkey: publicKeyFrom,
